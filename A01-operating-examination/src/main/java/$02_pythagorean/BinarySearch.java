@@ -22,7 +22,7 @@ public class BinarySearch {
 	}
 
 	/**
-	 * 循环版本
+	 * 迭代版本
 	 *
 	 * @param nums
 	 * @param target
