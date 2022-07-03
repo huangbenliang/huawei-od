@@ -28,7 +28,7 @@ public class BinarySearch {
 	 * @param target
 	 * @return
 	 */
-	private static int binarySearch(int[] nums, int target) {
+	public static int binarySearch(int[] nums, int target) {
 		//两端都是闭区间
 		int left = 0;
 		int right = nums.length - 1;
@@ -62,7 +62,7 @@ public class BinarySearch {
 		return binarySearchWithRecursive(nums, 0, nums.length - 1, target);
 	}
 
-	private int binarySearchWithRecursive(int[] nums, int left, int right, int target) {
+	public static int binarySearchWithRecursive(int[] nums, int left, int right, int target) {
 		//递归结束条件，当左边界大于右边界时，没有意义，返回-1
 		if (left > right) {
 			return -1;
